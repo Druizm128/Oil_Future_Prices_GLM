@@ -50,11 +50,15 @@ The statistical analysis was executed in **R** using **Just Another Gibbs Sample
 
 The best model that explains the oil future prices during the period of study is a dynamic generalize linear model with static intercept and smoothing factor. 
 
+![alt text](fig/fitted_model.png)
+
 The variables with statistical significance that best contributed to explain the oil prices were:
 
 - Dollar index
 - OPEC oil production 
 - World oil demand
+
+![alt text](fig/parameters.png)
 
 The volatility index of the futures market, the short- and long-term interest rates of the Treasury Bonds had a less important impact.
 
