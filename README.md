@@ -1,13 +1,12 @@
-# Analysis of the future oil price crisis of 2014-2016
-## A generalized linear model approach with time series 
+# Analysis of the future oil price crisis of 2014-2016. A generalized linear model approach with time series 
 
-### Objective
+## Objective
 
 The objective of this work is to provide an empirical explanation of the behavior of international oil future prices during the crisis of 2014-2016 using macroeconomic variables.
 
 ![alt text](fig/news_covers.png)
 
-### Methodology
+## Methodology
 
 To achieve the objective a generalized linear model approach with time series is used.
 
@@ -42,11 +41,11 @@ Three types of models were fitted using the original, standardized and transform
 
 The deviance (DIC) and pseudo-R2 measures were used to evaluate the models. Also, the parameters' statistical significance and a visual inspection of the model for overfitting were used to select the best model.
 
-### Tools
+## Tools
 
 The statistical analysis was executed in **R** using **Just Another Gibbs Sampler (JAGS)** library.
 
-### Results 
+## Results 
 
 The best model that explains the oil future prices during the period of study is a dynamic generalize linear model with static intercept and smoothing factor. 
 
@@ -63,7 +62,7 @@ The variables with statistical significance that best contributed to explain the
 The volatility index of the futures market, the short- and long-term interest rates of the Treasury Bonds had a less important impact.
 
 
-### Index of the repository
+## Index of the repository
 
 **Deliverables**
 
